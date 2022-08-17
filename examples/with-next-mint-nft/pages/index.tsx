@@ -97,13 +97,13 @@ const Home: NextPage = () => {
         <div style={{ flex: '0 0 auto' }}>
           <FlipCard>
             <FrontCard isCardFlipped={isMinted}>
-              <img src="/nft.png" alt="RainbowKit Demo NFT" width="500" height="500">
+              <img src="/nft.png" alt="RainbowKit Demo NFT" width="500" height="500"/>
               <h1 style={{ marginTop: 24 }}>Rainbow NFT</h1>
               <ConnectButton />
             </FrontCard>
             <BackCard isCardFlipped={isMinted}>
               <div style={{ padding: 24 }}>
-                <img src="/nft.png" alt="RainbowKit Demo NFT" width="80" height="80">
+                <img src="/nft.png" alt="RainbowKit Demo NFT" width="80" height="80"/>
                 <h2 style={{ marginTop: 24, marginBottom: 6 }}>NFT Minted!</h2>
                 <p style={{ marginBottom: 24 }}>
                   Your NFT will show up in your wallet in the next few minutes.
